@@ -1,0 +1,136 @@
+body {
+    margin: 0
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 4rem;
+    width: 100vw;
+
+    border: 1px solid black;
+    background-color: hotpink;
+}
+
+header>div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    margin-left: 1rem;
+    color: white;
+}
+
+nav > a {
+    margin-right: 1 rem;
+    font size: 1 rem;
+    color: white;
+    padding: 1rem;
+}
+
+/* ---- End of HEADER ---- */
+
+/* ---- Start of MAIN ---- */
+
+main {
+    min-height: 80vh;
+    min-width: 70vw;
+    background-color: rgb(241, 182, 196);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > div {
+    display: flex;
+}
+
+aside {
+    min-height: 80vh;
+    min-width: 10vw;
+    background-color: hotpink;
+}
+
+.one > h2 {
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    margin: 20px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.two > h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sing {
+    float: right;
+    height: 12vh;
+    width: 15vw;
+}
+
+.three {
+    margin: 20px 10px 10px 10px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.three > h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cook {
+    float: right;
+    height: 12vh;
+    width: 15vw;
+}
+
+.four {
+    margin: 20px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.four > h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cat {
+    float: right;
+    height: 12vh;
+    width: 15vw;
+}
+
+/* ----- End of MAIN ---- */
+
+footer {
+    width: 100vw;
+    background-color: hotpink;
+    height: 8vw;
+}
+
+.linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    margin-top: 5px;
+}
