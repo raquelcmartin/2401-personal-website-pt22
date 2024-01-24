@@ -70,71 +70,26 @@ aside {
 }
 
 h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: .67em;
+    margin-block-end: .67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+form {
+    font-size: 25px;
+    max-width: 660px;
+    margin: auto;
+}
+
+section {
     display: grid;
-    font-size: 2rem;
-    text-indent: 2vw;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
-}
-
-
-h3 {
-    display: block;
-    font-size: 1.5em;
-    border-bottom: 2px solid black;
-}
-
-p {
-    font-size: 18px;
-}
-
-.box-grid {
-    display: grid;
-    grid-template-rows: 30vw 30vw 30vw;
-    row-gap: 3vw;
-    margin: 2em auto;
-    padding: 1em;
-}
-
-.box-grid > div {
-    background-color: white;
-    align-items: auto;
-    justify-content: center;
-}
-
-.boxes {
-    box-sizing: content-box;
-}
-
-.apple {
-    float: right;
-    height: 20vh;
-    width: 20vw;
-    position: relative;
-    margin-top: -20px;
-}
-
-.orange {
-    float: right;
-    height: 20vh;
-    width: 20vw;
-    position: relative;
-    margin-top: -20px;
-}
-
-
-.strawberry {
-    float: right;
-    height: 20vh;
-    width: 20vw;
-    position: relative;
-    margin-top: -15px;
-}
-
-div {
-    display:inline-block;
-    max-width: fit-content;
 }
 
 /* ----- End of MAIN ---- */
@@ -150,7 +105,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 55px;
-    margin-top: 5px;
+    margin: 5px;
 }
 
 .linkedin {

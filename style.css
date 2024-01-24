@@ -1,3 +1,10 @@
+@media all and (max-width: 580px) {
+    body {
+        color: lightgreen;
+    }
+    
+}
+
 body {
     margin: 0
 }
@@ -106,4 +113,12 @@ footer {
     align-items: center;
     font-size: 55px;
     margin: 5px;
+}
+
+.linkedin {
+    color: #aaaaaa;
+}
+
+.linkedin:hover {
+    color: #373da0;
 }

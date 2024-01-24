@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    <script defer src="contact.js"></script>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
@@ -26,18 +26,30 @@
     <div>
         <aside></aside>
         <main>
-            <img src="website.png"/>
-            <h2>Developer, Singer, Chef</h2>
+            <section>
+            <h2>Contact Me:</h2>
 
-            <p>
-                Interested in pursuing a career in software engineering, practicing daily to achieve my goals.
-            </p>
-            <h3 class="quote">
-                "Life is like a box of chocolates."
-                <br><br/>
-                - Forest Gump
-            </h3>
+            <form id="form">
+                <div>
+                    <label for="name">Name:</label>
+                    <br>
+                    <input id="name" type="text" name="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input id="email" type="text" name="Email"> 
+                </div>
+                <div> 
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea id="message" name="Message" rows="6" cols="50"></textarea>
 
+                </div>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+          </section>
+            
         </main>
         <aside></aside>
 
